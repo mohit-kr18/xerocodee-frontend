@@ -1,0 +1,129 @@
+
+.signup{
+    background-color: #c9defc;
+    height: 100vh;
+    display: flex;
+}
+
+.signup_wrapper{
+    display: flex;
+    flex-direction: column;
+    /* padding: 1rem; */
+    /* border: 2px solid gray; */
+    background-color: white;
+    margin: auto;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    max-width:920px ;
+    /* height: 600px; */
+}
+
+.xerocodee_logo{
+    margin: auto;
+}
+
+.singup_main{
+    display: flex;
+    justify-content:space-between
+}
+
+.left_section{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.hello{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.singup_subTitle{
+    display: flex;
+    justify-content: center;
+    color: #666671;
+    align-items: center;
+    font-size: 0.8rem;
+    
+}
+
+.blank{
+    border-bottom: 2px solid #b3b3bb;
+    padding-top: 0.4rem;
+    width: 110px;
+}
+
+
+.or{
+    text-align: center;
+    font-weight: 600;
+    color: #7f7f90;
+    padding:0.8rem ;
+    font-size: 0.8rem;
+}
+
+.btn_section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.1rem 0.5rem;
+    border-radius: 0.2rem;
+    align-items: center;
+    border: 2px solid #e7e7e7;
+    background-color:white ;
+    color: #7f7f90;
+    font-size: 0.7rem;
+    cursor: pointer;
+}
+
+
+.btn img{
+    height: 1.2rem;
+}
+
+
+.already_account{
+    color: #7f7f90;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.already_account span{
+    color: #3b77ff;
+    cursor: pointer;
+}
+
+.right_section{
+  padding-top: 1.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.blank_signupLogo{
+    display: flex;
+    justify-content: center;
+    padding-right: 1rem;
+}
+
+.second_blank{
+    border-right: 2px solid #d6d6df;
+    padding-right: 2.2rem;
+}
+
+.blank_signupLogo img{
+    aspect-ratio: 1/1;
+    height: 400px;
+    width: 400px;
+}
+
+.right_section >img{
+    height: 100px;
+}

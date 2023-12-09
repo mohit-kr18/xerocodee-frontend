@@ -1,0 +1,81 @@
+
+.service_progress{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.step{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #bbbbbb;
+}
+
+.Service_item_wrapper{
+    display: flex;
+    border-radius: 0.5rem;
+    flex-direction: column;
+    padding: 0.3rem 0.8rem;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+}
+
+.name_icon{
+    display: flex;
+    gap: 5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name_status{
+    display: flex;
+    flex-direction: column;
+    gap:0.1rem;
+}
+
+.name{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.status{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #797979;
+}
+
+.icon_graycolor{
+    display: flex;
+    gap: 0.2rem;
+    padding:0.3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 0.4rem;
+    padding: 0.2rem 0.3rem;
+    border: 2px solid #ffdfa2;
+}
+
+.icon img{
+    height: 2rem;
+    width: 2rem;   
+}
+
+.graycolor{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    padding: 0.3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.graycolor img{
+    height: 0.4rem;
+    width: 0.4rem;
+}

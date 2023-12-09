@@ -1,0 +1,30 @@
+
+.dashboard{
+    
+    border-radius: 1.5rem;
+    padding: 1rem;
+}
+
+
+.dashboard_main{
+    display: flex;
+    padding-top: 1rem;
+    justify-content: space-between;
+    border-radius: 0 0 1.5rem 1.5rem;
+}
+
+.stepper{
+    z-index: 0;
+}
+
+@media (max-width:600px){
+    .dashboard_main{
+        flex-direction: column-reverse;
+    }
+}
+
+/* @media (max-width:820px){
+    .dashboard_main{
+       flex-direction: row-reverse;
+    }
+} */

@@ -1,0 +1,154 @@
+.header_wrapper {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 1rem 1rem 1rem;
+    align-items: center;
+	background-color: #c9defc;
+}
+
+.search_wrapper {
+	display: flex;
+	align-items: center;
+	max-width: 300px;
+	margin-top: 0.6rem;
+	justify-content: space-between;
+	background-color: white;
+	padding-left: 1rem;
+	border-radius: 2rem;
+}
+
+.search {
+	background-color: #0c5bc6;
+	padding: 1.2rem;
+	height: 1.2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 2.4rem;
+	cursor: pointer;
+	margin-right: 0.1rem;
+}
+
+input {
+	text-align: start;
+	border: none;
+	padding: 0.5rem;
+	font-weight: 500;
+	outline: none;
+}
+
+.header_right_section {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	margin-top: 0.6rem;
+}
+
+.header_right_section img {
+	height: 1.2rem;
+	width: 1.2rem;
+}
+
+.upgrade_plan_wrapper {
+	display: flex;
+	align-items: center;
+	background-color: #ffc656;
+	border-radius: 2rem;
+	gap: 0.4rem;
+	padding: 0.1rem;
+	padding-right: 0.5rem;
+	font-size: 0.9rem;
+	cursor: pointer;
+}
+
+.giftcard {
+	background-color: white;
+	border-radius: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0.3rem;
+	margin-left: 0.1rem;
+}
+
+.notifications,
+.mail,
+.settings,
+.profile {
+	background-color: white;
+	border-radius: 0.3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0.2rem 0.3rem;
+	margin-left: 0.1rem;
+	cursor: pointer;
+}
+
+.profile_expand {
+	display: flex;
+	align-items: center;
+	gap: 0.2rem;
+}
+.expand_more {
+	padding-left: 1rem;
+	display: flex;
+	font-size: 0.7rem;
+	font-weight: 600;
+	align-items: center;
+	cursor: pointer;
+}
+
+.profile1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.profile1 img {
+	border-radius: 50%;
+	height: 2rem;
+	width: 2rem;
+}
+
+.header_img {
+	height: 2.3rem;
+	width: 6rem;
+}
+
+.burger_header_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+@media (max-width: 1000px) {
+	.notifications,
+	.mail,
+	.settings,
+	.upgrade_plan_wrapper {
+		display: none;
+	}
+
+    .search_wrapper{
+        width: 100%;
+    }
+    .header_wrapper{
+        padding:0 1rem;
+    }
+}
+
+@media (min-width: 820px) {
+	.burger_header_img {
+		display: none;
+	}
+}
+
+@media (max-width:460px){
+    .expand_more{
+        display: none;
+    }
+}
