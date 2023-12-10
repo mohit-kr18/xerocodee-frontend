@@ -1,6 +1,9 @@
 import axiosInstance from 'axios';
 
-const url = import.meta.env.VITE_ENV === 'dev' ? 'http://localhost:5000' : '';
+const url =
+	import.meta.env.VITE_ENV === 'dev'
+		? 'http://localhost:5000'
+		: 'https://xerocode-backend.vercel.app';
 // console.log(import.meta.env);
 
 export const axios = axiosInstance.create({
