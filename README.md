@@ -1,5 +1,8 @@
 # xerocodee - Full Stack Authentication Service
 
+### [Backend Repo](https://github.com/mohit-kr18/xerocodee-backend)
+### [Live Website](https://xerocodee-mk.netlify.app/)
+
 ## Project Overview
 
 The xerocodee project is a full-stack application designed to provide secure authentication functionalities. The frontend is built to offer an interactive user experience, while the backend serves as a token-based authentication service using JSON Web Tokens (JWT) and google OAuth and github OAuth authenctication.
